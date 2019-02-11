@@ -1,0 +1,14 @@
+$color-brand: #49b884;
+$color-dark: #161219;
+$color-light: #d9e6e4;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=K2D:100,300,400,500,700,800');
+
+html {
+  @media screen and (min-width: 540px){
+    font-size: 18px;
+  }
+
+  background-color: $color-dark;
+}
