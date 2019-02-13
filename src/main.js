@@ -1,14 +1,11 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-// import Resume from './Resume'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import Resume from './Resume'
-// import router from './router'
 import './assets/sass/resume.scss'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-// import './svg-triangles'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTerminal, faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
