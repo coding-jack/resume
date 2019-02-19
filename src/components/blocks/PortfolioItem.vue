@@ -20,6 +20,7 @@
   .portfolio-item {
     .image-container {
       position: relative;
+
       .btn {
         top: 0;
         right: 0;
@@ -34,16 +35,19 @@
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
         filter: blur(15px);
       }
+
       img {
         filter: blur(0) saturate(1);
         transition: all 0.4s ease-in-out;
       }
+
       &:hover {
         .btn {
           opacity: 1;
           transform: scale(1.2);
           filter: blur(0);
         }
+
         img {
           opacity: 0.45;
           transform: scale(0.95);

@@ -1,17 +1,17 @@
 <template>
-  <div class="nav-container">
-    <b-nav class="text-right flex-wrap-reverse flex-md-nowrap flex-row flex-lg-column justify-content-center align-items-center align-items-lg-end pr-lg-4">
-      <img class="profile-pic rounded-circle img-fluid d-none d-md-block mb-lg-4 mr-auto mr-lg-0 ml-lg-auto" src="../../assets/profile-pic.jpg">
+  <div class="nav-container w-100">
+    <b-nav class="w-100">
       <b-nav-item to="/" exact>About</b-nav-item>
       <b-nav-item to="skills">Skills</b-nav-item>
       <b-nav-item to="experience">Experience</b-nav-item>
       <b-nav-item to="portfolio">Portfolio</b-nav-item>
-      <div class="contact-area d-flex align-items-center pt-lg-4 text-green">
+      <div class="contact-area float-right d-flex align-items-beginning">
         <a class="nav-link d-inline" :href="'mailto:' + email"><font-awesome-icon icon="envelope"/></a>
         <span class="d-none d-lg-inline"> | </span>
         <a class="nav-link d-inline" :href="'tel:' + phone"><font-awesome-icon icon="mobile"/></a>
         <span class="d-none d-lg-inline"> | </span>
         <a class="nav-link d-inline" :href="githubUrl" target="_blank"><font-awesome-icon :icon="['fab', 'github']"/></a>
+        <img class="profile-pic rounded-circle img-fluid d-none d-md-block mb-lg-4 mr-auto mr-lg-0 ml-lg-auto" src="../../assets/bobross.jpg">
       </div>
     </b-nav>
   </div>
