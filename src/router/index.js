@@ -5,7 +5,6 @@ import Skills from '@/components/pages/Skills'
 import Experience from '@/components/pages/Experience'
 import Portfolio from '@/components/pages/Portfolio'
 
-
 Vue.use(Router)
 
 export default new Router({
