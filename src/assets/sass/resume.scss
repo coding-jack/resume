@@ -3,7 +3,7 @@ $color-dark: #161219;
 $color-light: #d9e6e4;
 
 @import '~bootstrap/scss/bootstrap.scss';
-@import url('https://fonts.googleapis.com/css?family=K2D:100,300,400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900');
 
 html {
   @media screen and (min-width: 540px){
@@ -11,6 +11,16 @@ html {
   }
 
   background-color: $color-dark;
+}
+
+body {
+  background: $color-dark;
+  color: $color-light;
+  height: 100vh;
+  font-weight: 400;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .profile-pic {
