@@ -29,8 +29,8 @@ export default {
   data () {
     return {
       description: `
-        <p>Since I only have on-the-job experience without a formal education in coding, I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
-        <p>My bandmate, who is also a self taught coder, was kind enough to put in a good word for me at his place of work after I had done enough studying on my own, and luckily I landed my first coding job!</p>
+        <p>I've been dabbling with web technologies for about 5 years but only landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
+        <p>My bandmate, who is a self taugh coder like myself, was kind enough to put in a good word for me at his place of work after I had done enough studying on my own, and luckily I landed my first coding job!</p>
       `,
       jobs: [
         {

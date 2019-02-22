@@ -3,7 +3,9 @@
   <div class="about text-left">
     <b-row>
       <b-col cols="12">
-        <page-content :heading="name" :subheading="profession + ' - ' + age" />
+        <page-content :heading="name" :subheading=" 'profession: ' + profession"/>
+        <page-content :subheading=" 'age: ' + age" />
+        <img src="../../assets/bobross.jpg" alt="" class="bio-pic img-fluid float-right ml-md-4">
         <div v-html="bio"/>
       </b-col>
     </b-row>
@@ -19,7 +21,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Hello',
+      // msg: 'Hello',
       name: 'Jackson Kaufman',
       profession: 'Full Stack Developer',
       age: 28,
@@ -29,7 +31,7 @@ export default {
       So trying something new is not foreign to me!</p>
       <p>Professionally, I'm most interested in mastering every aspect of Wordpress, PHP and Javascript, and exploring new languages and their capabilities such as Vue.js, React and Angular.</p>
       <p>I am currently employed by a small marketing firm located in the LODO part of Downtown Denver.
-      After the Senior Developer at the firm decided to leave for another prospect about four months ago, I took over his responsibilties and I've been holding down the fort ever since!</p>
+      After the Senior Developer at the firm decided to leave for another prospect about six months ago, I took over his responsibilties and I've been holding down the fort ever since!</p>
       <p>When I'm not coding and managing websites, you can find me in my new home studio creating music with my friends, snowboarding up in the hills or rock climbing at the gym or outdoors.</p>
       <p>This resume was built with Vue.js and Bootstrap 4, <br class="d-none d-md-block">
       feel free to <a href="#" target="_blank">view the source here</a>.</p>
