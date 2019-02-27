@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div class="education">
     <page-content :heading="$route.name" :description="description"/>
     <b-row v-for="category in work" :key="category.id" class="pb-3">
       <b-col cols="12" class="text-right">
@@ -23,12 +23,12 @@
 
 <script>
 import PageContent from '@/components/blocks/PageContent'
-import PortfolioItem from '@/components/blocks/PortfolioItem'
+import EducationItem from '@/components/blocks/EducationItem'
 export default {
-  name: 'portfolio',
+  name: 'education',
   components: {
     'page-content': PageContent,
-    'portfolio-item': PortfolioItem
+    'education-item': EducationItem
   },
   data () {
     return {
@@ -68,7 +68,7 @@ export default {
           projects: [
             {
               title: 'Trump Time',
-              image: 'portfolio/js/trump-time.jpg',
+              image: 'portfolio/js/trump-time.png',
               description: 'Trump Time is a web app that allows you to generate your own fake Time magazine covers.',
               link: 'http://pi-mont.github.io/trump-time'
             }

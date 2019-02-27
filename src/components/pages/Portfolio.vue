@@ -60,6 +60,54 @@ export default {
               image: 'portfolio/wordpress/knoff.jpg',
               description: 'A Sage 9 & Wordpress site with IDX integration for Knoff Group Real Estate in Montana',
               link: 'https://knoffgroup.com'
+            },
+            {
+              title: '303 Beauty Bar',
+              image: 'portfolio/wordpress/303.jpg',
+              description: 'A Sage 9 & Wordpress site for a local beauty salon in Denver',
+              link: 'https://303beautybar.com/'
+            },
+            {
+              title: 'Kingsford Premium Wood Pellets',
+              image: 'portfolio/wordpress/kingsford.jpg',
+              description: 'A Sage 9 & Wordpress site for Kingsford\'s Wood Smoking Pellets Division',
+              link: 'https://kingsfordpellets.com/'
+            },
+            {
+              title: 'Pacific Steel Group',
+              image: 'portfolio/wordpress/psg.jpg',
+              description: 'A Sage 9 & Wordpress site for Pacific Steel Group',
+              link: 'https://pacificsteelgroup.com/'
+            },
+            {
+              title: 'M.Five Networking',
+              image: 'portfolio/wordpress/m5.jpg',
+              description: 'A Sage 9 & Wordpress site for M.Five Networking',
+              link: 'http://www.m5networking.com/'
+            },
+            {
+              title: 'Fly Fish Montana',
+              image: 'portfolio/wordpress/flyfish.jpg',
+              description: 'A Sage 9 & Wordpress site for a fly fishing tour guide in Bozeman, Montana',
+              link: 'https://flyfishmontana.net/'
+            },
+            {
+              title: 'Latsis Custom Homes',
+              image: 'portfolio/wordpress/latsis.jpg',
+              description: 'A Sage 9 & Wordpress site for a custom luxury homebuilder in Denver',
+              link: 'https://latsiscustomhomes.com/'
+            },
+            {
+              title: 'Wazee Partners',
+              image: 'portfolio/wordpress/wazee.jpg',
+              description: 'A Sage 9 & Wordpress site for a law firm in Denver',
+              link: 'https://wazeepartners.com/'
+            },
+            {
+              title: 'Clear Path',
+              image: 'portfolio/wordpress/clearpath.jpg',
+              description: 'A Sage 9 & Wordpress site for a patented device for further operation room safety',
+              link: 'http://integratedst.wpengine.com/'
             }
           ]
         },

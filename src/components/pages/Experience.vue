@@ -29,7 +29,7 @@ export default {
   data () {
     return {
       description: `
-        <p>I've been dabbling with web technologies for about 5 years but only landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
+        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
         <p>My bandmate, who is a self taugh coder like myself, was kind enough to put in a good word for me at his place of work after I had done enough studying on my own, and luckily I landed my first coding job!</p>
       `,
       jobs: [
@@ -37,7 +37,7 @@ export default {
           company: 'Graphik Creative',
           location: 'Denver, CO',
           role: 'Senior Developer',
-          startDate: '11092015',
+          startDate: '10312017',
           endDate: '10262018',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
           description: 'I work here now.  Wudup'

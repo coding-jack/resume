@@ -3,7 +3,7 @@
     <div class="image-container mb-3">
       <img :src="require(`@/assets/${image}`)" class="img-fluid rounded screenshot">
     </div>
-    <h3 class="h5 portfolio-title text-green font-weight-black">{{ title }}</h3>
+    <h3 class="h5 education-title text-green font-weight-black">{{ title }}</h3>
     <p class="">{{ description }}</p>
   </b-col>
 </template>
