@@ -6,7 +6,6 @@
         v-for="job in jobs"
         :key="job.id"
         :company="job.company"
-        :location="job.location"
         :role="job.role"
         :startDate="job.startDate"
         :endDate="job.endDate"
@@ -30,17 +29,27 @@ export default {
     return {
       description: `
         <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
-        <p>My bandmate, who is a self taugh coder like myself, was kind enough to put in a good word for me at his place of work after I had done enough studying on my own, and luckily I landed my first coding job!</p>
+        <p>I am currently employed by a small marketing firm located in the LODO part of Downtown Denver.
+        After the Senior Developer at the firm decided to leave for another prospect about six months ago, I took over all dev duties and responsibilties for the firm and I've been holding down the fort ever since!</p>
       `,
       jobs: [
         {
           company: 'Graphik Creative',
           location: 'Denver, CO',
-          role: 'Senior Developer',
-          startDate: '10312017',
-          endDate: '10262018',
+          role: 'Full Stack Developer',
+          startDate: '09262018',
+          endDate: 'current',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'I work here now.  Wudup'
+          description: 'Monthly maintenance on over 14 sites.  Moving from host to host manually, debugging malware. Helping designers with backend navigation, downloading latest designer software/tools.'
+        },
+        {
+          company: 'Graphik Creative',
+          location: 'Denver, CO',
+          role: 'Junior Developer',
+          startDate: '10312017',
+          endDate: '09262018',
+          techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
+          description: 'Getting acquainted with building Custom Themes. wordpress file structure, cpt, Sage 8/9, php, sass, npm, cli tools, git, responsive development, mimicing design from sketch, illustrator, photoshop, webpack, ftp, .'
         },
       ]
     }

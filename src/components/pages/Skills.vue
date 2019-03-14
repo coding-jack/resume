@@ -19,13 +19,12 @@ export default {
   data () {
     return {
       description: `
-        <p>My education in coding has been through numerous online courses and free resources, as well as hands on experience through working on the job with a mentor.</p>
-        <p>In coding there is always a new and unique problem to solve, and thus, never a dull moment.</p>
+        <p>My education in coding has been through numerous online courses and free resources, as well as hands on experience through working on the job with a mentor.  In coding there is always a new and unique problem to solve, and thus, never a dull moment.</p>
       `,
       skills: [
         {
           heading: 'Web',
-          list: ['HTML5', 'JS', 'CSS3/SCSS', 'PHP', 'Responsive Design', 'Canvas/WebGL']
+          list: ['HTML5', 'JS', 'CSS3/SCSS', 'PHP', 'Responsive Design - bootstrap', 'Canvas/WebGL']
         },
         {
           heading: 'Wordpress',
@@ -41,7 +40,7 @@ export default {
         },
         {
           heading: 'Database',
-          list: ['MySQL', 'SQLite', 'MAMP Pro']
+          list: ['MySQL', 'SQLite', 'MAMP Pro', 'phpMyAdmin']
         },
         {
           heading: 'CLI',

@@ -2,9 +2,9 @@
   <div class="job">
     <header class="d-flex align-items-center">
       <div class="job-info">
-        <h4 class="d-inline-block text-green font-weight-black mr-2">{{ company }}</h4>
-        <h6 class="d-md-inline-block">{{ location }}</h6>
-        <h5>{{ role }}</h5>
+        <h4 class="d-inline-block text-green font-weight-black mr-2">{{ role }}</h4>
+        <h6 class="d-md-inline-block">{{ company }}</h6>
+        <h5>{{ location }}</h5>
       </div>
       <div v-if="startDate && endDate" class="employment-dates text-green text-center ml-auto">
         <h6>{{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>

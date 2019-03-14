@@ -1,8 +1,12 @@
 <template>
-  <section class="page-content mb-3">
-    <h1 v-if="heading" class="text-green mb-3"><font-awesome-icon icon="terminal" class="mr-3"/>{{ heading }}</h1>
-    <h2 v-if="subheading" class="font-weight-normal h4">{{ subheading }}</h2>
-    <div v-if="description" class="mb-5" v-html="description"></div>
+  <section class="page-content my-3 text-center">
+    <b-row>
+      <b-col md="7" class="mx-auto text-center">
+        <h1 v-if="heading" class="text-green my-3"><font-awesome-icon icon="terminal" class="mr-3"/>{{ heading }}</h1>
+        <h2 v-if="subheading" class="font-weight-normal h4">{{ subheading }}</h2>
+        <div v-if="description" class="mb-5" v-html="description"></div>
+      </b-col>
+    </b-row>
   </section>
 </template>
 
