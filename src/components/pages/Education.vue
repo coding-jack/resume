@@ -1,23 +1,18 @@
 <template>
   <div class="education">
     <page-content :heading="$route.name" :description="description"/>
-    <b-row v-for="category in work" :key="category.id" class="pb-3">
-      <b-col cols="12" class="text-right">
-        <h2 class="h3 text-green font-weight-black mb-4">{{ category.category }}</h2>
-      </b-col>
-      <b-col cols="12" class="">
-        <b-row>
-          <portfolio-item
-          v-for="project in category.projects"
-          :image="project.image"
-          :title="project.title"
-          :description="project.description"
-          :link="project.link"
-          :key="project.id"
-          />
-        </b-row>
-      </b-col>
-    </b-row>
+    <div class="education">
+      <education-item
+      v-for="school in schools"
+      :key="school.id"
+      :title="school.title"
+      :description="school.description"
+      :startDate="school.startDate"
+      :endDate="school.endDate"
+      :degree="school.degree"
+      :location="school.location"
+      />
+    </div>
   </div>
 </template>
 
@@ -32,47 +27,30 @@ export default {
   },
   data () {
     return {
-      description: '',
-      work: [
+      description: '<p>Although my education path has strayed many directions in my life, I consider myself a to be continual student.  I am always striving to learn more and to be better at whatever it is I am doing at that moment.</p>',
+      schools: [
         {
-          category: 'Wordpress',
-          projects: [
-            {
-              title: 'Metro Optical',
-              image: 'portfolio/wordpress/metro.jpg',
-              description: 'A futuristic/sci-fi design built with Sage 9 and Wordpress for Metro Optical telecom.',
-              link: 'http://metrooptical.com'
-            },
-            {
-              title: 'Symplicity',
-              image: 'portfolio/wordpress/symplicity.jpg',
-              description: 'A Sage 9 & Wordpress site for Symplicity Communications.',
-              link: 'http://symplicitycom.com'
-            },
-            {
-              title: 'Dmarie and Co.',
-              image: 'portfolio/wordpress/dmarie.jpg',
-              description: 'A Sage 9 & Wordpress site for Dmarie and Co.',
-              link: 'http://dmarieandco.com'
-            },
-            {
-              title: 'Knoff Group Real Estate',
-              image: 'portfolio/wordpress/knoff.jpg',
-              description: 'A Sage 9 & Wordpress site with IDX integration for Knoff Group Real Estate in Montana',
-              link: 'https://knoffgroup.com'
-            }
-          ]
+          title: 'University of Northern Colorado',
+          location: 'Greeley, CO',
+          description: 'I started out at the Monfort College of Business as a Management emphasis.  I thought the classes in management were pointless, and that good managers can only learn from experience.  I was always good with numbers and I was naturally performing well in my finance classes, so I switched my major and performed at the top of my class.  I was tested, interviewed and accepted into the Student and Foundation Fund which actively managed -at the time- over $1 million of real money in the stock market.  I also competed in the CFA Research Challenge held between six top finance schools in the state, and I was a manager of the first Socially Resposible Investment Fund at the School.',
+          degree: 'Bachelors in Business Administration with an Emphasis in Finance and a Minor in Music',
+          startDate: 'Fall of 2009',
+          endDate: 'Fall of 2013',
         },
         {
-          category: 'JS',
-          projects: [
-            {
-              title: 'Trump Time',
-              image: 'portfolio/js/trump-time.png',
-              description: 'Trump Time is a web app that allows you to generate your own fake Time magazine covers.',
-              link: 'http://pi-mont.github.io/trump-time'
-            }
-          ]
+          title: 'ISM University of Mangement and Economics',
+          location: 'Vilnius, Lithuania',
+          degree: 'Study Abroad - Credit Towards my Bachelors Degree',
+          description: 'My time in Vilnius undoubtedly changed my life.  A last minute decision to study abroad in a part of the world I could not find on a map lead to an enormously bigger learning and development experience than anything I could have dreamed of.  I learned how to immerse myself in the unknown and find my own way, to socialize in a sometimes uncomfortable setting, and make life-long friendships that I cherish to this day.  Living in Vilnius taught me how valuable it can be leave your comfort zone and explore the unknown, and to embrace that rather than be afraid of it.  I am a happier and more corageous person because of it.  Oh, and I helped the school start their own student run investment fund class.',
+          startDate: 'January 2013',
+          endDate: 'June 2013',
+        },
+        {
+          title: 'D\'Evelyn Jr./Sr. High School',
+          location: 'Lakewood, CO',
+          description: 'D\'Evelyn is a great college prep school that taught me how to study and procrastinate successfully.  I am still very good friends with just about every friend I made there, and I think that has been the most valuable take-away.  I was in student counsel, jazz band, concert choir and all-state choir.',
+          startDate: 'August 2003',
+          endDate: 'May 2009',
         },
       ]
     }

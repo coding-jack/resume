@@ -1,5 +1,5 @@
 <template>
-  <b-col cols="12" md="6" class="portfolio-item pb-4">
+  <b-col cols="12" md="6" class="portfolio-item pb-4 text-center">
     <div class="image-container mb-3">
       <img :src="require(`@/assets/${image}`)" class="img-fluid rounded screenshot">
       <b-btn variant="primary" class="btn-sm" v-if="link" :href="link" target="_blank">View Project »</b-btn>
@@ -39,6 +39,7 @@
       img {
         filter: blur(0) saturate(1);
         transition: all 0.4s ease-in-out;
+        min-height: 404px;
       }
 
       &:hover {

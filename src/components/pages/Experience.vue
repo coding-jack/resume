@@ -6,6 +6,7 @@
         v-for="job in jobs"
         :key="job.id"
         :company="job.company"
+        :location="job.location"
         :role="job.role"
         :startDate="job.startDate"
         :endDate="job.endDate"
@@ -28,28 +29,34 @@ export default {
   data () {
     return {
       description: `
-        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience.</p>
-        <p>I am currently employed by a small marketing firm located in the LODO part of Downtown Denver.
-        After the Senior Developer at the firm decided to leave for another prospect about six months ago, I took over all dev duties and responsibilties for the firm and I've been holding down the fort ever since!</p>
+        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience. I am currently employed by a small marketing firm down in LODO.</p>
       `,
       jobs: [
         {
           company: 'Graphik Creative',
           location: 'Denver, CO',
           role: 'Full Stack Developer',
-          startDate: '09262018',
-          endDate: 'current',
+          startDate: 'September 2018',
+          endDate: 'Currently Employed',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'Monthly maintenance on over 14 sites.  Moving from host to host manually, debugging malware. Helping designers with backend navigation, downloading latest designer software/tools.'
+          description: 'After the senior dev decided to leave the firm in October of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they needed help navigating the backend or downloading the most recent version of designer tools, but I also call the shots on evertyhing dev related.  My responsibilities include active maintenance on over 14 sites building everything, old or new, myself, fixing any issue with live sites, and many more things that prop up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
         },
         {
           company: 'Graphik Creative',
           location: 'Denver, CO',
           role: 'Junior Developer',
-          startDate: '10312017',
-          endDate: '09262018',
+          startDate: 'May 2017',
+          endDate: 'September 2018',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'Getting acquainted with building Custom Themes. wordpress file structure, cpt, Sage 8/9, php, sass, npm, cli tools, git, responsive development, mimicing design from sketch, illustrator, photoshop, webpack, ftp, .'
+          description: 'Starting my coding career here has been nothing short of huge blessing for me.  Working with the small team of badass designers and an even more badass dev mentor to build custom themes and sweet sites was a huge leg up for a newbie like me. I quickly became familiar with the wordpress file structure, custom post types, Sage 8/9 frameworks, php, sass, cli tools, node package manager, git, responsive development with bootstrap, webpack, ftp, mimicing design from sketch, illustrator and photoshop, and many other incredibly valuable skills in the coding workplace.'
+        },
+        {
+          company: 'Steamboat Snowmobile Tours',
+          location: 'Steamboat Springs, CO',
+          role: 'Snowmobile Tour Guide',
+          startDate: 'December 2016',
+          endDate: 'April 2017',
+          description: 'Yes, this was my job before coding. My buddy was able to put in a good word for me to get a job here and live right next to the mountain, so I could not say no.  After working numerous restaurant and canvassing jobs post graduation, this seemed like a dream come true.  I would probably still be doing it, but the music in Denver beckoned me back.  This is the only non-relevant job I will list because I like listing it and I do not want to bore you with the predecessors.'
         },
       ]
     }
