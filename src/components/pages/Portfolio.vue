@@ -2,9 +2,6 @@
   <div class="portfolio">
     <page-content :heading="$route.name" :description="description"/>
     <b-row class="pb-3">
-      <b-col cols="12">
-        <!-- <h2 class="h3 text-green font-weight-black mb-4">{{ category.category }}</h2> -->
-      </b-col>
       <b-col cols="12" class="">
         <b-row>
           <portfolio-item
