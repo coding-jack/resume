@@ -11,6 +11,8 @@
           <a class="nav-link d-inline" :href="'tel:' + phone"><font-awesome-icon icon="mobile"/></a>
           <span class="d-none d-lg-inline"> | </span>
           <a class="nav-link d-inline" :href="githubUrl" target="_blank"><font-awesome-icon :icon="['fab', 'github']"/></a>
+          <span class="d-none d-lg-inline"> | </span>
+          <a class="nav-link d-inline" :href="linkedinUrl" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']"/></a>
         </div>
       </div>
       <div class="nav-area list-inline mx-auto text-center">
@@ -31,7 +33,8 @@ export default {
     return {
       phone: '303-653-1861',
       email: 'jacksonkaufman115@gmail.com',
-      githubUrl: 'https://github.com/coding-jack'
+      githubUrl: 'https://github.com/coding-jack',
+      linkedinUrl: 'https://www.linkedin.com/in/home-kaufman-1691019/'
     }
   }
 }

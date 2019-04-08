@@ -7,7 +7,7 @@ import Resume from './Resume'
 import './assets/sass/resume.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
@@ -16,7 +16,7 @@ Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
 
-library.add(faGithub, faMobile, faEnvelope)
+library.add(faGithub, faLinkedin, faMobile, faEnvelope)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -39,7 +39,7 @@ export default {
           startDate: 'September 2018',
           endDate: 'Currently Employed',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'After the senior dev decided to leave the firm in October of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they needed help navigating the backend or downloading the most recent version of designer tools, but I also call the shots on evertyhing dev related.  My responsibilities include active maintenance on over 14 sites building everything, old or new, myself, fixing any issue with live sites, and many more things that prop up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
+          description: 'After the senior dev decided to leave the firm in October of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they needed help with anything that is over their heads, but I also call the shots on evertyhing dev related.  My current responsibilities include, but are not limited to active maintenance on over 14 sites, fixing any issues/breakage with live sites, overseeing the creation of a site from initial coding to taking it live, and anything else that pops up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
         },
         {
           company: 'Graphik Creative',

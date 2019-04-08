@@ -29,7 +29,7 @@ export default {
   },
   data () {
     return {
-      description: 'These sites range from being completely built by me, to shared efforts between me and the senior dev.  I saw every one of these sites from blank slates to live.  I have made additions and done maintenance on many other sites not listed here that are older and in far worse shape than these.',
+      description: 'These sites range from being completely built by me, to shared efforts between me and the other developer.  I saw every one of these sites from blank slates to live.  I have made additions and done maintenance on many other sites not listed here that are older and in far worse shape than these.',
       projects: [
         {
           title: 'Knoff Group Real Estate',
