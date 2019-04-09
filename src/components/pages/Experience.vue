@@ -29,7 +29,7 @@ export default {
   data () {
     return {
       description: `
-        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience. I am currently employed by a small marketing firm down in LODO.</p>
+        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience under an extremely skilled mentor. I am currently employed by a small marketing firm down in LODO.</p>
       `,
       jobs: [
         {
@@ -39,7 +39,7 @@ export default {
           startDate: 'September 2018',
           endDate: 'Currently Employed',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'After the senior dev decided to leave the firm in October of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they needed help with anything that is over their heads, but I also call the shots on evertyhing dev related.  My current responsibilities include, but are not limited to active maintenance on over 14 sites, fixing any issues/breakage with live sites, overseeing the creation of a site from initial coding to taking it live, and anything else that pops up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
+          description: 'After the senior dev decided to leave the firm in September of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they need help with anything that is over their heads, but I also call the shots on evertyhing dev related.  My current responsibilities include, but are not limited to, actively maintenaning over 14 sites, fixing any issues/breakage whatsoever with live sites, overseeing the creation of a site from initial coding to taking it live, and anything else that pops up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
         },
         {
           company: 'Graphik Creative',
@@ -48,7 +48,7 @@ export default {
           startDate: 'May 2017',
           endDate: 'September 2018',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
-          description: 'Starting my coding career here has been nothing short of huge blessing for me.  Working with the small team of badass designers and an even more badass dev mentor to build custom themes and sweet sites was a huge leg up for a newbie like me. I quickly became familiar with the wordpress file structure, custom post types, Sage 8/9 frameworks, php, sass, cli tools, node package manager, git, responsive development with bootstrap, webpack, ftp, mimicing design from sketch, illustrator and photoshop, and many other incredibly valuable skills in the coding workplace.'
+          description: 'Starting my coding career here has been nothing short of huge blessing for me.  Working with the small team of badass designers and an even more badass dev mentor to build custom themes and sweet sites was a huge leg up at the time for a newbie like me. I quickly became familiar with the wordpress file structure, custom post types, Sage 8/9 frameworks, php, sass, cli tools, node package manager, git, responsive development, bootstrap, webpack, ftp, mimicing design from sketch, illustrator and photoshop, and many other incredibly valuable skills in the coding workplace.'
         },
         {
           company: 'Steamboat Snowmobile Tours',
@@ -56,7 +56,7 @@ export default {
           role: 'Snowmobile Tour Guide',
           startDate: 'December 2016',
           endDate: 'April 2017',
-          description: 'Yes, this was my job before coding. My buddy was able to put in a good word for me to get a job here and live right next to the mountain, so I could not say no.  After working numerous restaurant and canvassing jobs post graduation, this seemed like a dream come true.  I would probably still be doing it, but the music in Denver beckoned me back.  This is the only non-relevant job I will list because I like listing it and I do not want to bore you with the predecessors.'
+          description: 'Yes, this was my job before coding. My buddy was able to put in a good word for me to get a job here and live right next to the mountain, so I couldn\'t say no.  After working numerous restaurant and canvassing jobs post graduation, this seemed like a dream come true.  I would probably still be doing it, but the music and career opportunities in Denver beckoned me back. To see my full list of previous work experience check out my LinkedIn Profile.'
         },
       ]
     }

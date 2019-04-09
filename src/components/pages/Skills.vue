@@ -19,12 +19,12 @@ export default {
   data () {
     return {
       description: `
-        <p>The coding skills I've learned have been through numerous online courses and free resources, as well as hands on experience through working on the job with a mentor.  In coding there is always a new and unique problem to solve, and thus, never a dull moment.</p>
+        <p>The coding skills I've learned have been through numerous online courses and free resources, as well as hands on experience through working at Graphik.  In coding there is always a new and unique problem to solve, and thus, never a dull moment.</p>
       `,
       skills: [
         {
           heading: 'Web',
-          list: ['HTML5', 'JS', 'CSS3/SCSS', 'PHP', 'Responsive Design - bootstrap',]
+          list: ['HTML5', 'JS', 'CSS3/SCSS', 'PHP', 'Responsive Design', 'Bootstrap',]
         },
         {
           heading: 'Wordpress',
@@ -40,7 +40,7 @@ export default {
         },
         {
           heading: 'CLI',
-          list: ['Git', 'NPM/Yarn', 'WP-CLI', 'Brew', 'Bower']
+          list: ['Git', 'NPM/Yarn', 'WP-CLI', 'Brew', 'Bower', 'Gulp']
         },
         {
           heading: 'Database',

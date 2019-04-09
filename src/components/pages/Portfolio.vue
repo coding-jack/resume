@@ -29,13 +29,19 @@ export default {
   },
   data () {
     return {
-      description: 'These sites range from being completely built by me, to shared efforts between me and the other developer.  I saw every one of these sites from blank slates to live.  I have made additions and done maintenance on many other sites not listed here that are older and in far worse shape than these.',
+      description: 'These sites range from being completely built by me, to shared efforts between me and one other developer.  I saw every one of these sites through, from blank slates to live.  I\'ve made additions and done maintenance on many other sites not listed here that are older and in far worse shape than these, but these are the fruits of my labor from the past two years.',
       projects: [
         {
           title: 'Knoff Group Real Estate',
           image: 'portfolio/wordpress/knoff.jpg',
           description: 'A Sage 9 & Wordpress site with IDX integration for Knoff Group Real Estate in Montana',
           link: 'https://knoffgroup.com'
+        },
+        {
+          title: 'Save our Youth',
+          image: 'portfolio/wordpress/soy.jpg',
+          description: 'A Sage 9 & Wordpress website for a local non-profit that facilitates the connection between mentors and at-risk youth',
+          link: 'https://saveouryouth.org/'
         },
         {
           title: 'Dmarie and Co.',
@@ -60,12 +66,6 @@ export default {
           image: 'portfolio/wordpress/latsis.jpg',
           description: 'A Sage 9 & Wordpress site for a custom luxury homebuilder in Denver',
           link: 'https://latsiscustomhomes.com/'
-        },
-        {
-          title: 'Save our Youth',
-          image: 'portfolio/wordpress/soy.jpg',
-          description: 'A Sage 9 & Wordpress website for a non-profit that facilitates mentors helping at-risk youth',
-          link: 'https://saveouryouth.org/'
         },
         {
           title: 'Kingsford Premium Wood Pellets',

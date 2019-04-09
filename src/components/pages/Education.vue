@@ -27,12 +27,12 @@ export default {
   },
   data () {
     return {
-      description: '<p>Although my education path has strayed many directions in my life, I consider myself a to be continual student.  I am always striving to learn more and to be better at whatever it is I am doing at that moment.</p>',
+      description: '<p>Although my educational path has taken many directions in my life, I can never stop being a student.  I am always striving to learn more and to be better at whatever it is I am doing at that moment.</p>',
       schools: [
         {
           title: 'University of Northern Colorado',
           location: 'Greeley, CO',
-          description: 'I started out at the Monfort College of Business as a Management emphasis.  I thought the classes in management were pointless, and that good managers can only learn from experience.  I was always good with numbers and I was naturally performing well in my finance classes, so I switched my major and performed at the top of my class.  I was tested, interviewed and accepted into the Student and Foundation Fund which actively managed -at the time- over $1 million of real money in the stock market.  I also competed in the CFA Research Challenge held between six top finance schools in the state, and I was a manager of the first Socially Resposible Investment Fund at the School.',
+          description: 'I started out at the Monfort College of Business as a Management emphasis.  I thought the classes in management were pointless, and that good managers learn the most from experience.  I was always good with numbers and I was naturally performing well in my finance classes, so I switched my major and performed near the top of my class.  I was tested, interviewed and accepted into the Student and Foundation Fund which actively managed -at the time- over $1.2 million of real money in the stock market.  I also competed in the CFA Research Challenge held between six top finance schools in the state, and I was a manager of the first Socially Resposible Investment Fund at the School.',
           degree: 'Bachelors in Business Administration with an Emphasis in Finance and a Minor in Music',
           startDate: 'Fall of 2009',
           endDate: 'Fall of 2013',
