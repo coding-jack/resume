@@ -36,7 +36,7 @@ export default {
         },
         {
           heading: 'JS',
-          list: ['Vue.js', 'jQuery', 'Node', 'Webpack']
+          list: ['Vue.js', 'ES6', 'jQuery', 'Node', 'Webpack']
         },
         {
           heading: 'CLI',
