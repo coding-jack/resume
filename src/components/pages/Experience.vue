@@ -37,7 +37,7 @@ export default {
           location: 'Denver, CO',
           role: 'Full Stack Developer',
           startDate: 'September 2018',
-          endDate: 'Currently Employed',
+          endDate: 'May 2019',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9'],
           description: 'After the senior dev decided to leave the firm in September of last year, I was promoted to Lead Dev for the company and I have been holding down the fort by myself ever since!  Not only is it cool to have the rest of the company come to me when they need help with anything that is over their heads, but I also call the shots on evertyhing dev related.  My current responsibilities include, but are not limited to, actively maintenaning over 14 sites, fixing any issues/breakage whatsoever with live sites, overseeing the creation of a site from initial coding to taking it live, and anything else that pops up on a daily basis.  I have honed in skills like moving old battered sites from host to host manually, debugging malware and solving compatibility issues with plugins.'
         },
