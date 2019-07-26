@@ -27,12 +27,12 @@ export default {
   },
   data () {
     return {
-      description: '<p>Although my educational path has taken many directions in my life, I can never stop being a student.  I am always striving to learn more and to be better at whatever it is I am doing at that moment.</p>',
+      description: '<p>Although my educational path has taken many directions in my life, I can never stop learning.  Whether it\'s learning financial portfolio managment, learning a new programming language, or learning how to properly care for an injured guest on a snowmobile tour, I am always striving to learn more and to be better at whatever it is I am doing at that moment.</p>',
       schools: [
         {
           title: 'University of Northern Colorado',
           location: 'Greeley, CO',
-          description: 'I started out at the Monfort College of Business as a Management emphasis.  I thought the classes in management were pointless, and that good managers learn the most from experience.  I was always good with numbers and I was naturally performing well in my finance classes, so I switched my major and performed near the top of my class.  I was tested, interviewed and accepted into the Student and Foundation Fund which actively managed -at the time- over $1.2 million of real money in the stock market.  I also competed in the CFA Research Challenge held between six top finance schools in the state, and I was a manager of the first Socially Resposible Investment Fund at the School.',
+          description: 'I started out at the Monfort College of Business as a Management emphasis.  I thought the classes in management were pointless, and that good managers learn the most from actually managing and getting that experience.  I was always good with numbers and I was naturally performing well in my finance classes, so I switched my major and graduated near the top of my class.  I was tested, interviewed and accepted into the Student and Foundation Fund which actively managed -at the time- over $1.2 million of real money in the stock market.  I also competed in the CFA Research Challenge held between six top finance schools in the state, and I was a manager of the very first Socially Resposible Investment Fund at the School.',
           degree: 'Bachelors in Business Administration with an Emphasis in Finance and a Minor in Music',
           startDate: 'Fall of 2009',
           endDate: 'Fall of 2013',
@@ -48,7 +48,7 @@ export default {
         {
           title: 'D\'Evelyn Jr./Sr. High School',
           location: 'Lakewood, CO',
-          description: 'D\'Evelyn is a great college prep school that taught me how to study and procrastinate successfully.  I am still very good friends with just about every friend I made there, and I think that has been the most valuable take-away.  I was in student counsel, jazz band, concert choir and all-state choir.',
+          description: 'D\'Evelyn is a great college prep school that taught me how to study and prepare for a future career.  I am still very good friends with just about every friend I made there, and I think that has been the most valuable take-away.  I was a member of student counsel, jazz band, concert choir, cross country, ultimate frisbee team, the performing arts and all-state choir while I was enrolled.',
           startDate: 'August 2003',
           endDate: 'May 2009',
         },

@@ -29,7 +29,7 @@ export default {
   data () {
     return {
       description: `
-        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience under an extremely skilled mentor. I am currently employed by a small marketing firm down in LODO.</p>
+        <p>I've been dabbling with web technologies for about 5 years and I landed a job about 2 years ago. I was fortunate enough to grow my coding knowledge in a real workspace getting hands on experience under an extremely skilled mentor.</p>
       `,
       jobs: [
         {
