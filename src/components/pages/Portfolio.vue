@@ -74,12 +74,6 @@ export default {
           link: 'https://kingsfordpellets.com/'
         },
         {
-          title: 'Metro Optical',
-          image: 'portfolio/wordpress/metro.jpg',
-          description: 'A futuristic/sci-fi design built with Sage 9 and Wordpress for Metro Optical telecom.',
-          link: 'http://metrooptical.com'
-        },
-        {
           title: 'M.Five Networking',
           image: 'portfolio/wordpress/m5.jpg',
           description: 'A Sage 9 & Wordpress site for M.Five Networking',
