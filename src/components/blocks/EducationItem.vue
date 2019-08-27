@@ -5,7 +5,7 @@
         <h4 class="h5 school-title text-green font-weight-black">{{ title }}</h4>
         <h5 class="text-light">{{ location }}</h5>
       </div>
-      <div v-if="startDate && endDate" class="enrollment-dates text-green text-center ml-auto">
+      <div v-if="startDate && endDate" class="enrollment-dates text-green text-center ml-md-auto">
         <h6>{{ startDate }} <span class="text-white"> to </span> {{ endDate }}</h6>
       </div>
     </header>

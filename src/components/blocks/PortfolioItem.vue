@@ -39,7 +39,15 @@
       img {
         filter: blur(0) saturate(1);
         transition: all 0.4s ease-in-out;
-        min-height: 404px;
+        @media (min-width: 768px) {
+          min-height: 247px;
+        }
+        @media (min-width: 992px) {
+          min-height: 337px;
+        }
+        @media (min-width: 1200px) {
+          min-height: 404px;
+        }
       }
 
       &:hover {
