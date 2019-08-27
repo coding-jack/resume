@@ -34,7 +34,7 @@ export default {
       phone: '303-653-1861',
       email: 'jacksonkaufman115@gmail.com',
       githubUrl: 'https://github.com/coding-jack',
-      linkedinUrl: 'https://www.linkedin.com/in/home-kaufman-1691019/'
+      linkedinUrl: 'https://www.linkedin.com/in/jackson-kaufman-1691019'
     }
   }
 }
