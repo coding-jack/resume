@@ -68,12 +68,6 @@ export default {
           link: 'https://latsiscustomhomes.com/'
         },
         {
-          title: 'Kingsford Premium Wood Pellets',
-          image: 'portfolio/wordpress/kingsford.jpg',
-          description: 'A Sage 9 & Wordpress site for Kingsford\'s Wood Smoking Pellets Division',
-          link: 'https://kingsfordpellets.com/'
-        },
-        {
           title: 'M.Five Networking',
           image: 'portfolio/wordpress/m5.jpg',
           description: 'A Sage 9 & Wordpress site for M.Five Networking',
@@ -96,12 +90,6 @@ export default {
           image: 'portfolio/wordpress/wazee.jpg',
           description: 'A Sage 9 & Wordpress site for a law firm in Denver',
           link: 'https://wazeepartners.com/'
-        },
-        {
-          title: 'Clear Path',
-          image: 'portfolio/wordpress/clearpath.jpg',
-          description: 'A Sage 9 & Wordpress site for a patented device for further operation room safety',
-          link: 'http://integratedst.wpengine.com/'
         }
       ]
     }
