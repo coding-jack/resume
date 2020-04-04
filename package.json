@@ -18,7 +18,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap-vue": "^2.0.0-rc.13",
     "jquery": "^3.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "push-dir": "^0.4.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
